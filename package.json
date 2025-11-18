@@ -2,11 +2,20 @@
   "name": "cypress-test-automation",
   "version": "1.0.0",
   "description": "Cypress Cucumber TestAutomation",
+  "homepage": "https://github.com/lrzayn/cypress-javascript-tests#readme",
+  "bugs": {
+    "url": "https://github.com/lrzayn/cypress-javascript-tests/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrzayn/cypress-javascript-tests.git"
+  },
   "license": "ISC",
   "author": "LRZ",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -174,6 +183,6 @@
     "yauzl": "^2.10.0"
   },
   "devDependencies": {
-    "cypress": "^10.10.0"
+    "cypress": "^15.6.0"
   }
 }
